@@ -43,7 +43,7 @@ namespace Serilog01
 
             app.UseAuthorization();
 
-            app.UseSerilogRequestLogging();
+            //app.UseSerilogRequestLogging();
 
             app.UseEndpoints(endpoints =>
             {
