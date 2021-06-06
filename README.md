@@ -1,6 +1,14 @@
+## Context
+1. .Net Core Serilog – Basic
+2. [.Net Core Serilog – Configuration](https://github.com/rtodosic/Serilog02/)
+3. [.Net Core Serilog - Structured JSON output](https://github.com/rtodosic/Serilog03/)
+4. [.Net Core Serilog - Enrichers](https://github.com/rtodosic/Serilog04/)
+5. [.Net Core Serilog - Custom JSON output](https://github.com/rtodosic/Serilog05/)
+6. [.Net Core Serilog - Adding Sinks](https://github.com/rtodosic/Serilog06/)
 
+This is part 1 of 6.
 
-## .Net Core Serilog – Basic
+## 1. .Net Core Serilog – Basic
 
 Serilog isn't too hard to setup, but the following outlines the simplest steps (that I have found) to add Serilog to a .Net Core Web API project:
 1. Create a new a ASP.NET Core Web Application and select API. (Weather API Sample)
