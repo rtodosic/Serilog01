@@ -17,7 +17,7 @@ namespace Serilog01
                 {
                     webBuilder.UseStartup<Startup>();
                 })
-                .UseSerilog((hostingContect, loggerConfiguration) => loggerConfiguration
+                .UseSerilog((hostingContext, loggerConfiguration) => loggerConfiguration
                     .WriteTo.Console()
                 );
     }

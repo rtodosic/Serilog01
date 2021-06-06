@@ -38,7 +38,7 @@ Serilog isn't too hard to setup, but the following outlines the simplest steps (
       {
         webBuilder.UseStartup<Startup>();
       })
-      .UseSerilog((hostingContect, loggerConfiguration) => loggerConfiguration
+      .UseSerilog((hostingContext, loggerConfiguration) => loggerConfiguration
         .WriteTo.Console()
   );
   ```
