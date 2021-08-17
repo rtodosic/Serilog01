@@ -22,7 +22,7 @@ Serilog isn't too hard to setup, but the following outlines the simplest steps (
       var minTemp = -20;
       var maxTemp = 55;
 
-      _logger.LogInformation("===> Get was called <===: Count: {Count}, MinTemp: {MinTemp}, MaxTemp: {MaxTemp}", cnt, minTemp, maxTemp);
+      _logger.LogInformation("===> Get was called <=== Count: {Count}, MinTemp: {MinTemp}, MaxTemp: {MaxTemp}", cnt, minTemp, maxTemp);
 
       var rng = new Random();
       return Enumerable.Range(1, cnt).Select(index => new WeatherForecast
